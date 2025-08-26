@@ -1,0 +1,1 @@
+Running the python script should produce a .csv file with the inferred model parameters. The input data are in the existing .csv file.
