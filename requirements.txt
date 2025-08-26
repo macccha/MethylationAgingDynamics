@@ -1,0 +1,6 @@
+To run the python scripts, the following packages are necessary:
+- matplotlib
+- torch
+- sbi.analysis (https://github.com/sbi-dev/sbi)
+
+For the R data analysis, the required libraries are listed at the top of the corresponding R files.
