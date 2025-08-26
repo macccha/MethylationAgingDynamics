@@ -20,7 +20,7 @@ f.close()
 
 #Read file
 print("Reading file...")
-readfile = pd.read_csv("./wolf.csv")
+readfile = pd.read_csv("./wolf_demo.csv")
 
 #Save samples
 print("Sampling sites...")
@@ -46,7 +46,7 @@ for i in range(0,len(average_meth)):
         alphas[i] = 2.0
         continue
     else:
-        x_obs = [average_meth[i],variance[i],100] #100 is the coverage, in this case the number of sites in the binned region
+        x_obs = [average_meth[i],variance[i],5] #5 is the coverage, in this case the number of sites in the binned region
         alphas[i] = posterior.sample((1,), x=x_obs, show_progress_bars=False)[0,1].item()
 
 #Add column to data frame
