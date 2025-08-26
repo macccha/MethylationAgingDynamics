@@ -1,4 +1,4 @@
-To run the python scripts, the following packages are necessary:
+To run the python scripts, the following packages are necessary (last versions):
 - matplotlib
 - torch
 - sbi.analysis (https://github.com/sbi-dev/sbi)
